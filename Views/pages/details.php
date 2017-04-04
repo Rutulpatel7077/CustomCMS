@@ -38,7 +38,8 @@ if($pageID == 0) {
 				</div>
 				<div class="form-group">
 					<label for="ContentTextField">Page Content</label>
-					<textarea rows="10" class="form-control" id="ContentTextField" name="ContentTextField" required><?php echo $page['content']; ?></textarea>
+                    <input type="text" class="form-control" id="ContentTextField"  name="ContentTextField"
+                           placeholder="Page Content" required  value="<?php echo $page['content']; ?>">
 				</div>
 				<input type="hidden" name="isAddition" value="<?php echo $isAddition; ?>">
 				<button type="submit" id="SubmitButton" class="btn btn-primary">Submit</button>

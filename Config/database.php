@@ -10,9 +10,9 @@ function DBConnection() {
 	try {
 
 		//local db access
-		$dsn = 'mysql:host=localhost;dbname=cmsdb';
-		$Username = 'root';
-		$Password = 'rutul7077';
+		$dsn = 'mysql:host=sql3.freemysqlhosting.net;port= 3306;dbname=sql3167430';
+		$Username = 'sql3167430';
+		$Password = 'QN1m2QWyip';
 		// instantiates a new pdo - an db object
 		return new PDO($dsn, $Username, $Password);
 	}
