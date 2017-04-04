@@ -19,3 +19,4 @@
         </div>
     </div>
 </div>
+<?php include_once('Scripts/pureChat.php'); ?>
