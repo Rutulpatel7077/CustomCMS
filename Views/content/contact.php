@@ -16,7 +16,6 @@
         Student Number: 200335158
     </p>
     <p>You can contact us on 200335158@student.georgianc.on.ca</p>
-    <p>||
-       ||==></p>
+
     <?php include_once('Scripts/contact.php'); ?>
 </div>
