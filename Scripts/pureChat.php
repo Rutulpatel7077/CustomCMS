@@ -13,6 +13,7 @@
             this.l.push(arguments);
         }
     };
+
     (function () {
         var done = false;
         var script = document.createElement('script');
