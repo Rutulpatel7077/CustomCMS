@@ -74,6 +74,7 @@ else {
 ?>
 
 <?php include_once('Views/partials/header.php'); ?>
+<?php include_once('Scripts/pureChat.php'); ?>
 <?php include_once ('Views/partials/navbar.php'); ?>
 <?php require($templateString); ?> <!-- Content -->
 <?php include_once ('Views/partials/footer.php');
