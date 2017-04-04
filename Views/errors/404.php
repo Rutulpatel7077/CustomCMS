@@ -7,11 +7,12 @@
  */
 ?>
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-offset-3 col-md-6">
-			<h1>Oop! Page Not Found :(</h1>
-			<p>You can contact us on 200335158@student.georgianc.on.ca</p>
-		</div>
-	</div>
+<<div class="container" id="container">
+    <div class='fallback fillParent vAligner text-center'>
+        <div class="vItem">
+            <h1>404</h1>
+            <p>Page not found</p>
+        </div>
+    </div>
 </div>
+
