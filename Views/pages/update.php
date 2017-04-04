@@ -16,10 +16,9 @@ $isAddition = filter_input(INPUT_POST, "isAddition");
 $pageTitle = filter_input(INPUT_POST, "TitleTextField"); //$_POST["NameTextField"];
 $pageContent = filter_input(INPUT_POST, "ContentTextField"); //$_POST["CostTextField"];
 
-if($isAddition == "1") {
+if ($isAddition == "1") {
 	CreatePage($pageTitle, $pageContent);
-}
-else {
+} else {
 	$pageID = filter_input(INPUT_POST, "IDTextField"); // $_POST["IDTextField"];
 	UpdatePage($pageID, $pageTitle, $pageContent);
 }

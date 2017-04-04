@@ -12,6 +12,6 @@ require_once('Controllers/page.php');
 $pages = ReadPages();
 ?>
 
-<?php foreach($pages as $page) : ?>
-	<li><a href="index.php?pageId=PageView&pageID=<?php echo $page['id'] ?>"><?php echo $page['title'] ?></a></li>
+<?php foreach ($pages as $page) : ?>
+    <li><a href="index.php?pageId=PageView&pageID=<?php echo $page['id'] ?>"><?php echo $page['title'] ?></a></li>
 <?php endforeach; ?>

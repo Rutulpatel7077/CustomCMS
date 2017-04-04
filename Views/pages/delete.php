@@ -14,7 +14,7 @@ include_once('Controllers/page.php');
 
 $pageID = $_GET["pageID"]; // assigns the pageID from the URL
 
-if($pageID != false) {
+if ($pageID != false) {
 	DeletePage($pageID);
 }
 

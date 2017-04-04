@@ -7,17 +7,16 @@
  */
 include_once('Controllers/user.php');
 
-if(!isset($_GET["pageId"])) {
-    if (isUser()) {
-	    $title = "Dashboard";
-	    $templateString = 'Views/dashboard.php';
-    } else {
-	    $title = "Home";
-	    $templateString = 'Views/home.php';
-    }
-}
-else {
-	switch($_GET["pageId"]) {
+if (!isset($_GET["pageId"])) {
+	if (isUser()) {
+		$title = "Dashboard";
+		$templateString = 'Views/dashboard.php';
+	} else {
+		$title = "Home";
+		$templateString = 'Views/home.php';
+	}
+} else {
+	switch ($_GET["pageId"]) {
 		case "About":
 			$title = "About Us";
 			$templateString = 'Views/content/about.php';
@@ -45,10 +44,9 @@ else {
 			$templateString = 'Views/pages/list.php';
 			break;
 		case "PageDetails";
-			if($_GET["pageID"]==0) {
+			if ($_GET["pageID"] == 0) {
 				$title = "Add Page";
-			}
-			else {
+			} else {
 				$title = "Edit Page";
 			}
 			$templateString = 'Views/pages/details.php';
@@ -61,10 +59,10 @@ else {
 			$title = "Delete Page";
 			$templateString = 'Views/pages/delete.php';
 			break;
-        case "PageView":
-            $title = "Page View";
-            $templateString = 'Views/pages/page.php';
-            break;
+		case "PageView":
+			$title = "Page View";
+			$templateString = 'Views/pages/page.php';
+			break;
 		default:
 			$title = "404";
 			$templateString = "Views/errors/404.php";
@@ -75,6 +73,6 @@ else {
 
 <?php include_once('Views/partials/header.php'); ?>
 <?php include_once('Scripts/pureChat.php'); ?>
-<?php include_once ('Views/partials/navbar.php'); ?>
+<?php include_once('Views/partials/navbar.php'); ?>
 <?php require($templateString); ?> <!-- Content -->
-<?php include_once ('Views/partials/footer.php');
+<?php include_once('Views/partials/footer.php');

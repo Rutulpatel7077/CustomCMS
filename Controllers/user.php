@@ -8,8 +8,9 @@
 
 include_once("Config/database.php");
 
-function CheckIfAuthenticated() {
-	if(!isset($_SESSION["is_logged_in"])) {
+function CheckIfAuthenticated()
+{
+	if (!isset($_SESSION["is_logged_in"])) {
 		// if everything good go to index page
 		header('Location: index.php?pageId=Login');
 	}
@@ -17,8 +18,9 @@ function CheckIfAuthenticated() {
 	return true;
 }
 
-function isUser() {
-	if(!isset($_SESSION["is_logged_in"])) {
+function isUser()
+{
+	if (!isset($_SESSION["is_logged_in"])) {
 		return false;
 	}
 	return true;

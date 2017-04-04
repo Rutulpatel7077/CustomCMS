@@ -17,5 +17,5 @@
     </p>
     <p>You can contact us on 200335158@student.georgianc.on.ca</p>
 
-    <?php include_once('Scripts/contact.php'); ?>
+	<?php include_once('Scripts/contact.php'); ?>
 </div>

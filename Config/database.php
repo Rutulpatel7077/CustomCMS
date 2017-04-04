@@ -4,7 +4,7 @@
  * Page Name:database.php
  * Author: Rutul Patel
  * Student Number: 200335158
- * Description of Page: This is configration of the database.
+ * Description of Page: This is configuration of the database.
  */
 
 if (session_status() == PHP_SESSION_NONE) {

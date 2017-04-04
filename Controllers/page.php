@@ -7,12 +7,14 @@
  */
 include_once("Config/database.php");
 
-function _executeAndClose($statement) {
+function _executeAndClose($statement)
+{
 	$statement->execute(); // run on the db server
 	$statement->closeCursor(); // close the connection
 }
 
-function CreatePage($pageTitle, $pageContent) {
+function CreatePage($pageTitle, $pageContent)
+{
 	$db = DBConnection();
 	$query = "INSERT INTO pages (title, content) VALUES (:page_title, :page_content)";
 	$statement = $db->prepare($query); // encapsulate the sql statement
@@ -21,7 +23,8 @@ function CreatePage($pageTitle, $pageContent) {
 	_executeAndClose($statement);
 }
 
-function ReadPages() {
+function ReadPages()
+{
 	$db = DBConnection();
 	$query = "SELECT * FROM pages"; // SQL statement
 	$statement = $db->prepare($query); // encapsulate the sql statement
@@ -31,7 +34,8 @@ function ReadPages() {
 	return $pages;
 }
 
-function UpdatePage($pageID, $pageTitle, $pageContent) {
+function UpdatePage($pageID, $pageTitle, $pageContent)
+{
 	$db = DBConnection();
 	$query = "UPDATE pages SET title = :page_title, content = :page_content WHERE id = :page_id "; // SQL statement
 	$statement = $db->prepare($query); // encapsulate the sql statement
@@ -41,7 +45,8 @@ function UpdatePage($pageID, $pageTitle, $pageContent) {
 	_executeAndClose($statement);
 }
 
-function GetPageById($pageId){
+function GetPageById($pageId)
+{
 	$db = DBConnection();
 	$query = "SELECT * FROM pages WHERE id = :page_id "; // SQL statement
 	$statement = $db->prepare($query); // encapsulate the sql statement
@@ -52,7 +57,8 @@ function GetPageById($pageId){
 	return $page;
 }
 
-function DeletePage($pageId) {
+function DeletePage($pageId)
+{
 	$db = DBConnection();
 	$query = "DELETE FROM pages WHERE id = :page_id ";
 	$statement = $db->prepare($query);
