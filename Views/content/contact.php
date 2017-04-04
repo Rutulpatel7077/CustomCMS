@@ -11,5 +11,6 @@
 
     <h1>Contact Us</h1>
     <p>You can contact us on 200335158@student.georgianc.on.ca</p>
-
 </div>
+
+<?php include_once('Scripts/contact.php'); ?>
