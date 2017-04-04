@@ -60,3 +60,5 @@ function DeletePage($pageId) {
 	$statement->bindValue(":page_id", $pageId);
 	_executeAndClose($statement);
 }
+
+?>

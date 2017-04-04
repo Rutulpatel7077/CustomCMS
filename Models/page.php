@@ -15,3 +15,5 @@ class Page
 		$this->slug = $slug;
 	}
 }
+
+?>

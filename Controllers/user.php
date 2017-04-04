@@ -116,5 +116,3 @@ function Logout()
 		header('Location: index.php');
 	}
 }
-
-?>
