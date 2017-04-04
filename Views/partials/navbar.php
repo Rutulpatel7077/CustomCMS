@@ -1,3 +1,11 @@
+<?php
+/**
+ * Page Name:navbar.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This Page is navigation bar for website.
+ */
+?>
 <nav class="navbar navbar-inverse">
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->

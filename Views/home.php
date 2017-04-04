@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Rutul
- * Date: 2017-04-04
- * Time: 1:31 AM
+ * Page Name:Home.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This Page is Home for the User.
  */
 ?>
 

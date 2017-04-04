@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Rutul
- * Date: 2017-04-03
- * Time: 8:40 PM
+ * Page Name:user.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This is controller class for the CMS.
  */
 
 include_once("Config/database.php");

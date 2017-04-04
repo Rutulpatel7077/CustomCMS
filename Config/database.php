@@ -1,11 +1,18 @@
 <?php
 // connection string
+/**
+ * Page Name:database.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This is configration of the database.
+ */
 
-if(session_status() == PHP_SESSION_NONE) {
+if (session_status() == PHP_SESSION_NONE) {
 	session_start();
 }
 
-function DBConnection() {
+function DBConnection()
+{
 	// exception handling - use a try / catch
 	try {
 
@@ -15,11 +22,11 @@ function DBConnection() {
 		$Password = 'QN1m2QWyip';
 		// instantiates a new pdo - an db object
 		return new PDO($dsn, $Username, $Password);
-	}
-	catch(PDOException $e) {
+	} catch (PDOException $e) {
 		$message = $e->getMessage();
 		echo "An error occurred: " . $message;
 		return null;
 	}
 }
+
 ?>

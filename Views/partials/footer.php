@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Rutul
- * Date: 2017-04-03
- * Time: 9:45 PM
+ * Page Name:footer.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This is footer for website
  */
 ?>
 

@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Rutul
- * Date: 2017-04-04
- * Time: 3:39 PM
+ * Page Name:pureChat.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This Page is script page for tghe pureChat live chat  for the CMS.
  */
 ?>
 

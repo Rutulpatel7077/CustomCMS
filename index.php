@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Rutul
- * Date: 2017-04-03
- * Time: 9:52 PM
+ * Page Name:index.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This Page is Main index page for the CMS.
  */
 include_once('Controllers/user.php');
 

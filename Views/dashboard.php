@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Rutul
- * Date: 2017-04-03
- * Time: 9:51 PM
+ * Page Name:dashboard.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This is dashboard for admin user.
  */
 ?>
 <div class="container">

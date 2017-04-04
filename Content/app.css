@@ -1,16 +1,20 @@
 .navbar-inverse {
     border-radius: 0;
 }
+
 .dashboard-menu {
     list-style-type: none;
     padding: 2px;
 }
+
 .add-btn {
     margin-top: 25px;
 }
+
 .table-pages {
     margin-top: 40px;
 }
+
 .th-action {
     width: 110px;
 }

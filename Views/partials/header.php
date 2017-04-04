@@ -1,3 +1,11 @@
+<?php
+/**
+ * Page Name:header.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This Page header for website
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

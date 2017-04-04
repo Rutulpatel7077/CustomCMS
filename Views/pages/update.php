@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Rutul
- * Date: 2017-04-03
- * Time: 9:39 PM
+ * Page Name:update.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This Page will update the database for pages
  */
 
 include_once('Controllers/user.php');

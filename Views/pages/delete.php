@@ -1,4 +1,11 @@
 <?php
+/**
+ * Page Name:delete.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This Page delete the page from database
+ */
+
 include_once('Controllers/user.php');
 CheckIfAuthenticated();
 

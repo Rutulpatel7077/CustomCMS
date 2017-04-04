@@ -1,11 +1,12 @@
 <?php
 
 /**
- * Created by PhpStorm.
- * User: Rutul
- * Date: 2017-04-03
- * Time: 8:35 PM
+ * Page Name: user.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This is user class for the CMS.
  */
+
 class User
 {
 	function __construct($username, $password, $displayName)

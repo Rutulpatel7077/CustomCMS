@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Rutul
- * Date: 2017-04-04
- * Time: 12:57 AM
+ * Page Name:page.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This Page shows page into the website
  */
 require_once('Controllers/page.php');
 

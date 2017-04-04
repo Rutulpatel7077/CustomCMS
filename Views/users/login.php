@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Rutul
- * Date: 2017-04-03
- * Time: 9:49 PM
+ * Page Name:login.php
+ * Author: Rutul Patel
+ * Student Number: 200335158
+ * Description of Page: This Page is login page for website which user can use for login.
  */
 
 if (isset($_POST["username"])) {
