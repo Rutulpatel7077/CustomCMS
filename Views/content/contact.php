@@ -12,9 +12,11 @@
     <h1>Contact Us</h1>
     <p>
         Author of Website: Rutul Patel<br>
-        Purpose of Website: Making a Content Management Website<br>7
+        Purpose of Website: Making a Content Management Website<br>
         Student Number: 200335158
     </p>
     <p>You can contact us on 200335158@student.georgianc.on.ca</p>
+    <p>||
+       ||==></p>
     <?php include_once('Scripts/contact.php'); ?>
 </div>
