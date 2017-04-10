@@ -1,0 +1,15 @@
+{
+    "name": "rutul/custom-cms",
+    "description": "Sending mail with sandGrid",
+    "type": "project",
+    "require": {
+        "sendgrid/sendgrid": "5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rutulpatel7077",
+            "email": "rutulpatel7077@gmail.com"
+        }
+    ]
+}
