@@ -7,14 +7,18 @@
  */
 
 $messages = "";
+$isUserNameUnique = false;
 
 include_once('Models/user.php');
 
 if (isset($_POST["username"])) {
+
+	include_once('Config/database.php');
+
 	$username = $_POST["username"];
 	$password = $_POST["password"];
-
 	include_once("Controllers/user.php");
+	// TODO: Checking user name  is already register or not
 
 	$messages = Register($username, $password);
 } else {
