@@ -21,7 +21,12 @@ function ProcessEmail($fullName, $emailAddress, $contactNumber, $message)
 
 	$content = new SendGrid\Content("text/plain", $message);
 	$mail = new SendGrid\Mail($from, $subject, $to, $content);
-	$sg = new \SendGrid("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");
+
+
+	$apiKey = $_ENV["SENDGRID_API"];
+	//$sg = new \SendGrid("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");
+	//$sg = new \SendGrid($apiKey);
+
 	// send the mail
 	$response = $sg->client->mail()->send()->post($mail);
 
