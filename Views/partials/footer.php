@@ -12,4 +12,11 @@
 <script src="Scripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="Scripts/app.js"></script>
 </body>
+<footer>
+<div class="row">
+    <div class="col-lg-12">
+        <p>Copyright &copy; Rutul Patel 2017</p>
+    </div>
+</div>
+</footer>
 </html>
