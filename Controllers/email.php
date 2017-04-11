@@ -32,7 +32,9 @@ function ProcessEmail($fullName, $emailAddress, $contactNumber, $message)
 
 	// send the mail
 	$response = $sg->client->mail()->send()->post($mail);
-
+	echo $response->statusCode();
+	echo $response->headers();
+	echo $response->body();
 
 	return $response->statusCode();
 }
