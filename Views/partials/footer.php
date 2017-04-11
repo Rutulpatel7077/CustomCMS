@@ -13,10 +13,10 @@
 <script src="Scripts/app.js"></script>
 </body>
 <footer>
-<div class="row">
-    <div class="col-lg-12">
-        <p>Copyright &copy; Rutul Patel 2017</p>
+    <div class="row">
+        <div class="col-lg-12">
+            <p>Copyright &copy; Rutul Patel 2017</p>
+        </div>
     </div>
-</div>
 </footer>
 </html>
