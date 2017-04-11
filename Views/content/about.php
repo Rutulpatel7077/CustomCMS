@@ -34,5 +34,29 @@
             <p>Rutul Patel is a Director and Co-founder of custom CMS</p>
         </div>
     </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="intro-message">
+                <hr class="intro-divider">
+                <ul class="list-inline intro-social-buttons">
+                    <li>
+                        <a href="https://www.facebook.com/rutulpatel7077" class="btn btn-default btn-lg"><i
+                                    class="fa fa-facebook fa-fw"></i> <span
+                                    class="network-name">Facebook</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Rutulpatel7077"
+                           class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span
+                                    class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/rutulpatel7077/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i>
+                            <span class="network-name">Linkedin</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
 </div>
 
