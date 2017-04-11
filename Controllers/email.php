@@ -26,9 +26,9 @@ function ProcessEmail($fullName, $emailAddress, $contactNumber, $message)
 
 	$apiKey = getenv('SENDGRID_API_KEY');
 	$sg = new \SendGrid($apiKey);
-//	$apiKey = $_ENV["SENDGRID_API"];
-//	require '../sendGridAPI.php';
-//	$sg = new \SendGrid("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");
+
+
+  $sg = new \SendGrid("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");
 
 	// send the mail
 	$response = $sg->client->mail()->send()->post($mail);
