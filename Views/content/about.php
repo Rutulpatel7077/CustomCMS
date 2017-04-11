@@ -31,7 +31,7 @@
             <h3>Rutul Patel
                 <small>Computer Programmer</small>
             </h3>
-            <p>Rutul Patel is a Director and co-founder of custom CMS</p>
+            <p>Rutul Patel is a Director and Co-founder of custom CMS</p>
         </div>
     </div>
 </div>
