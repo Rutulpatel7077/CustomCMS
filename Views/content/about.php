@@ -3,7 +3,8 @@
  * Page Name:about.php
  * Author: Rutul Patel
  * Student Number: 200335158
- * Description of Page: This Page is a about page for Client
+ * Description of Page: This Page is a about page for admin
+ * Get some of the idea from the templates of Bootstrap
  */
 ?>
 
@@ -17,23 +18,29 @@
             </h1>
             <p>This is a Custom Content Management System in PHP using MVC Architecture.<br>You can register with CMS
                 and make your own website and improve all the functionality easily. So, Make your free websites
-                and create new Web world for your business or make your porfolio</p>
+                and create new Web world for your business or make your portfolio.</p>
         </div>
     </div>
+    <!--    End of introduction Row-->
 
-    <!-- Team Members Row -->
+    <!--  Row for admin -->
     <div class="row">
         <div class="col-lg-4 col-centered">
             <h2 class="page-header">Director of CMS</h2>
         </div>
         <div class="col-lg-4 col-sm-6 text-center">
-            <img class="img-circle img-responsive img-center" src="https://scontent.fymy1-1.fna.fbcdn.net/v/t1.0-9/16864947_1224642734322953_9153539812839330676_n.jpg?oh=150b4247446f256053382f014bcb4531&oe=5987A7FA" alt="Director_Image">
+            <img class="img-circle img-responsive img-center"
+                 src="https://scontent.fymy1-1.fna.fbcdn.net/v/t1.0-9/16864947_1224642734322953_9153539812839330676_n.jpg?oh=150b4247446f256053382f014bcb4531&oe=5987A7FA"
+                 alt="Director_Image">
             <h3>Rutul Patel
                 <small>Computer Programmer</small>
             </h3>
             <p>Rutul Patel is a Director and Co-founder of custom CMS</p>
         </div>
     </div>
+    <!--    end of row for admin-->
+
+    <!--    social media connection-->
     <div class="row">
         <div class="col-lg-12">
             <div class="intro-message">
@@ -50,13 +57,14 @@
                                     class="network-name">Github</span></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/rutulpatel7077/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i>
+                        <a href="https://www.linkedin.com/in/rutulpatel7077/" class="btn btn-default btn-lg"><i
+                                    class="fa fa-linkedin fa-fw"></i>
                             <span class="network-name">Linkedin</span></a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-
-</div>
+    <!--    end of social media connection-->
+</div> <!-- end of main container-->
 

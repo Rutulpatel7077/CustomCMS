@@ -3,8 +3,9 @@
  * Page Name:pureChat.php
  * Author: Rutul Patel
  * Student Number: 200335158
- * Description of Page: This Page is script page for tghe pureChat live chat  for the CMS.
- */
+ * Description of Page: This Page is script page for the pureChat live chat  for the CMS.
+ * This is Script from the pureChat.ca for live chatting feature
+ **/
 ?>
 
 <body>

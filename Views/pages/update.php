@@ -4,6 +4,7 @@
  * Author: Rutul Patel
  * Student Number: 200335158
  * Description of Page: This Page will update the database for pages
+ * Get hint from the COMP1006 Lesson 12 GitHub repository
  */
 
 include_once('Controllers/user.php');
@@ -22,6 +23,6 @@ if ($isAddition == "1") {
 	$pageID = filter_input(INPUT_POST, "IDTextField"); // $_POST["IDTextField"];
 	UpdatePage($pageID, $pageTitle, $pageContent);
 }
-// redirect to index page
+// redirect to index.php
 header('Location: index.php?pageId=PagesList');
 ?>

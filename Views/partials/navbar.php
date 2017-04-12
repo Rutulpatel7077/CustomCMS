@@ -4,6 +4,7 @@
  * Author: Rutul Patel
  * Student Number: 200335158
  * Description of Page: This Page is navigation bar for website.
+ * Get Navigatiion Bar from the COMP1006 Lesson 12 repository
  */
 ?>
 <nav class="navbar navbar-inverse">
@@ -42,6 +43,6 @@
                                     class="fa fa-sign-in fa-lg"></i> Login</a></li>
 				<?php endif ?>
             </ul>
-        </div><!-- /.navbar-collapse -->
+        </div><!-- /.navigation-collapse -->
     </div><!-- /.container-fluid -->
 </nav>

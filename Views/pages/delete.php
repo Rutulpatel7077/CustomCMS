@@ -6,9 +6,9 @@
  * Description of Page: This Page delete the page from database
  */
 
-include_once('Controllers/user.php');
+include_once('Controllers/user.php'); // include user for checking
 CheckIfAuthenticated();
-
+// if every thing is good then delete the page
 include_once('Config/database.php');
 include_once('Controllers/page.php');
 

@@ -23,16 +23,20 @@
     </div>
 </div>
 <?php include_once('Scripts/pureChat.php'); ?>
+<!--This container shows all the pages of your site-->
 <div class="container">
     <div class="jumbotron">
         <h2 class="text-center">Your Curret Pages on Site</h2>
-<?php foreach ($pages as $page) : ?>
-    <a href="index.php?pageId=PageView&pageID=<?php echo $page['id'] ?>">
-    <div class="container" style="width: 30%; display: inline-block; background-color:darkseagreen; margin: 10px; padding: 3px; text-align: center;">
-        <h1><?php echo $page['title'] ?></h1>
-    </div>
-    </a>
-<?php endforeach; ?>
+        <!--This foreach loop shows all pages into the blockin dashboard-->
+		<?php foreach ($pages as $page) : ?>
+            <a href="index.php?pageId=PageView&pageID=<?php echo $page['id'] ?>">
+                <div class="container"
+                     style="width: 30%; display: inline-block; background-color:darkseagreen; margin: 10px; padding: 3px; text-align: center;">
+                    <h1><?php echo $page['title'] ?></h1>
+                </div>
+            </a>
+		<?php endforeach; ?>
+        <!-- end of foreach loop-->
     </div>
 </div>
 

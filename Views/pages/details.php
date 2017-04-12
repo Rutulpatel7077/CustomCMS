@@ -4,6 +4,7 @@
  * Author: Rutul Patel
  * Student Number: 200335158
  * Description of Page: This Page ask user to make a new page
+ * Get some Idea from the COMP1006 lesson 12 repository GitHub
  */
 
 include_once('Controllers/user.php');
@@ -46,10 +47,7 @@ if ($pageID == 0) {
         <a href="index.php?pageId=PagesList">
             <input type="button" class="btn btn-danger" value="Cancel"/>
         </a>
-
     </form>
-
-
 </div>
 
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Page Name:contact.php
+ * Page Name:error.php
  * Author: Rutul Patel
  * Student Number: 200335158
  * Description of Page: This Page is error page for website

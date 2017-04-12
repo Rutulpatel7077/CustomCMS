@@ -4,6 +4,8 @@
  * Author: Rutul Patel
  * Student Number: 200335158
  * Description of Page: This Page is Home for the User.
+ * Get Idea from the Bootstrap Templates
+ * Get one Paragraph about CMS for Wordpress.org
  */
 ?>
     <div class="container">
@@ -21,6 +23,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="content-section-a">
                 <div class="container">
                     <div class="row">
@@ -42,6 +45,7 @@
                 </div>
                 <!-- /.container -->
             </div>
+
             <div class="content-section-b">
                 <div class="container">
                     <div class="row">
@@ -53,6 +57,7 @@
                                 and you can use this for free. Just
                                 register your account or log in if you already have account with this.</p>
                         </div>
+
                         <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                             <img class="img-responsive"
                                  src="http://vertumedia.com/wp-content/uploads/2016/06/Content-management-system.png"

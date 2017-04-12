@@ -11,7 +11,6 @@
 <script src="Scripts/lib/jquery/dist/jquery.min.js"></script>
 <script src="Scripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="Scripts/app.js"></script>
-</body>
 <footer>
     <div class="row">
         <div class="col-lg-12 nav-fixed-bottom">
@@ -19,4 +18,3 @@
         </div>
     </div>
 </footer>
-</html>

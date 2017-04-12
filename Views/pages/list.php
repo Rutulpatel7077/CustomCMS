@@ -3,7 +3,8 @@
  * Page Name:list.php
  * Author: Rutul Patel
  * Student Number: 200335158
- * Description of Page: This Page is show the all the cotent for the database
+ * Description of Page: This Page is show the all the content in the table
+ * Get reference  from COMP 1006 Lesson 12 private repository
  */
 
 include_once('Controllers/user.php');
@@ -30,7 +31,9 @@ $pages = ReadPages();
         </tr>
         </thead>
         <tbody>
+        <!-- This is foreach loop set all the pages into real navigation bar-->
 		<?php foreach ($pages as $page) : ?>
+            <!--Table for Pages-->
             <tr>
                 <td><?php echo $page['id'] ?></td>
                 <td>
@@ -51,9 +54,8 @@ $pages = ReadPages();
                 </td>
             </tr>
 		<?php endforeach; ?>
-        </tbody>
+        <!--end of foreach-->
+        </tbody><!--Table end-->
     </table>
-
-
 </div>
 

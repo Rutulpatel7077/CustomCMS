@@ -4,6 +4,7 @@
  * Author: Rutul Patel
  * Student Number: 200335158
  * Description of Page: This Page is Main index page for the CMS.
+ * Get reference from COMP1006 Lesson 12 Repository
  */
 include_once('Controllers/user.php');
 

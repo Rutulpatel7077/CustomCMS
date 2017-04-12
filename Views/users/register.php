@@ -39,7 +39,7 @@ $title = "Register";
     <div class="row">
         <div class="col-md-offset-4 col-md-4">
             <br>
-            <h1 class="text-center">Please Register</h1>
+            <h1 class="text-center">Register To Make Websites</h1>
             <br>
             <form method="post" action="index.php?pageId=Register">
                 <input placeholder="username" name="username" type="text" class="form-control" required autofocus/><br>
