@@ -22,7 +22,7 @@
             </ul>
         </div>
     </div>
-</div>
+
 <?php include_once('Scripts/pureChat.php'); ?>
 
 <?php foreach ($pages as $page) : ?>
@@ -34,4 +34,4 @@
     </a>
 
 <?php endforeach; ?>
-
+</div>
