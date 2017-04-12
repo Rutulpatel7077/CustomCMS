@@ -16,8 +16,9 @@ $page = GetPageById($pageID);
 
 <div class="container">
     <div class="row">
-        <h1><?php echo $page['title'] ?></h1>
-        <p><?php echo $page['content'] ?></p>
-
+        <div class="jumbotron">
+        <h1 class="text-center"><?php echo $page['title'] ?></h1>
+        <p class="text-justify"><?php echo $page['content'] ?></p>
+        </div>
     </div>
 </div>
