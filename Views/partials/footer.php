@@ -14,7 +14,7 @@
 </body>
 <footer>
     <div class="row">
-        <div class="col-lg-12 -fixed-bottom">
+        <div class="col-lg-12 nav-fixed-bottom">
             <p>Copyright &copy; Rutul Patel 2017</p>
         </div>
     </div>
