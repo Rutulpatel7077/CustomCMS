@@ -25,10 +25,9 @@
 <?php include_once('Scripts/pureChat.php'); ?>
 
 <?php foreach ($pages as $page) : ?>
-    <a href="index.php?pageId=PageView&pageID=
-    <div class="
-       container" style="width: 30%; display: inline-block; background-color:darkseagreen; margin: 10px; padding: 3px; text-align: center;">
-    <h1><?php echo $page['title'] ?></h1>
+    <a href="index.php?pageId=PageView&pageID=<?php echo $page['id'] ?>">
+    <div class="container" style="width: 30%; display: inline-block; background-color:darkseagreen; margin: 10px; padding: 3px; text-align: center;">
+        <h1><?php echo $page['title'] ?></h1>
     </div>
     </a>
 
