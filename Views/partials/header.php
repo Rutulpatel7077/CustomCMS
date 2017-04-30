@@ -10,6 +10,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="Free Web tutorials,cms,custom cms,school project custom cms">
+    <meta name="keywords" content="HTML,CSS,PHP,CMS,custom CMS,project CMS">
+    <meta name="author" content="Rutul Patel">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo $title ?></title>
     <!-- CSS Section -->
