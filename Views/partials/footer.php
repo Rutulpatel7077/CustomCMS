@@ -13,7 +13,7 @@
 <script src="Scripts/app.js"></script>
 <footer>
     <div class="row">
-        <div class="col-lg-12 nav-fixed-bottom col-sm-2">
+        <div class="nav-fixed-bottom col-sm-2">
             <p>Copyright &copy; Rutul Patel 2017</p>
         </div>
     </div>
