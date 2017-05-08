@@ -19,7 +19,7 @@ function ProcessEmail($fullName, $emailAddress, $contactNumber, $message)
 	$content = new SendGrid\Content("text/plain", $message);
 	$mail = new SendGrid\Mail($from, $subject, $to, $content);
 
-	$sg = new \SendGrid("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"); // API key of sendGrid With private github repo
+	$sg = new \SendGrid("YOUR_API_KEY_SENDGRID"); // API key of sendGrid With private github repo
 	// send the mail
 	$response = $sg->client->mail()->send()->post($mail);
 
