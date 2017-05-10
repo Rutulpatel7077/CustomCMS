@@ -24,6 +24,12 @@ $title = "Login";
 	<?php if ($messages != "") : ?>
         <div class="alert alert-danger"><?php echo $messages ?></div>
 	<?php endif ?>
+
+    <?php
+    include_once("Scripts/facebook.php");
+    ?>
+
+    ?>
     <div class="row">
         <div class="col-md-offset-4 col-md-4">
             <br>
