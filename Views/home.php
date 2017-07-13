@@ -14,9 +14,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="intro-message">
-                            <h1><span>Welcome to Custom CMS</span></h1>
+                            <h1><span>Welcome to Custom CMS (Content Management System)</span></h1>
                             <h3>A Custom Management System for you!</h3>
-                            <p>This is a custom Content Management System developed in PHP. You should give it a
+                            <p>This is a custom Content Management System (School project) developed in PHP. You should give it a
                                 try!</p>
                             <hr class="intro-divider">
                         </div>
