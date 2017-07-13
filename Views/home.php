@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="intro-message">
-                            <h1>Welcome to Custom CMS</h1>
+                            <h1><span>Welcome to Custom CMS</span></h1>
                             <h3>A Custom Management System for you!</h3>
                             <p>This is a custom Content Management System developed in PHP. You should give it a
                                 try!</p>
@@ -53,7 +53,7 @@
                             <hr class="section-heading-spacer">
                             <div class="clearfix"></div>
                             <h2 class="section-heading">Is this free for this site?</h2>
-                            <p class="lead">Yes! Absolutely This CMS is made by Rutul Patel, Student of Georgian College
+                            <p class="lead">Yes! Absolutely This CMS (Content management system) is made by Rutul Patel, Student of Georgian College
                                 and you can use this for free. Just
                                 register your account or log in if you already have account with this.</p>
                         </div>
