@@ -30,7 +30,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 text-center">
             <img class="img-circle img-responsive img-center"
-                 src="https://scontent.fymy1-1.fna.fbcdn.net/v/t1.0-9/16864947_1224642734322953_9153539812839330676_n.jpg?oh=150b4247446f256053382f014bcb4531&oe=5987A7FA"
+                 src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/16508824_1212298588890701_568654373655035042_n.jpg?oh=dae68094953913ae4334719682b71405&oe=5A4AB145"
                  alt="Director_Image">
             <h3>Rutul Patel
                 <small>Computer Programmer</small>
